@@ -14,6 +14,7 @@
 		C27683D11B0EBCAD00D1B408 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C27683D01B0EBCAD00D1B408 /* Images.xcassets */; };
 		C27683D41B0EBCAD00D1B408 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C27683D21B0EBCAD00D1B408 /* LaunchScreen.xib */; };
 		C27683E01B0EBCAD00D1B408 /* ethjasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C27683DF1B0EBCAD00D1B408 /* ethjasTests.m */; };
+		C27683EB1B0EBF3C00D1B408 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C27683EA1B0EBF3C00D1B408 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		C27683D91B0EBCAD00D1B408 /* ethjasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ethjasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C27683DE1B0EBCAD00D1B408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C27683DF1B0EBCAD00D1B408 /* ethjasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ethjasTests.m; sourceTree = "<group>"; };
+		C27683E91B0EBF3C00D1B408 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C27683EA1B0EBF3C00D1B408 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				C27683C81B0EBCAD00D1B408 /* AppDelegate.m */,
 				C27683CA1B0EBCAD00D1B408 /* ViewController.h */,
 				C27683CB1B0EBCAD00D1B408 /* ViewController.m */,
+				C27683E91B0EBF3C00D1B408 /* RootViewController.h */,
+				C27683EA1B0EBF3C00D1B408 /* RootViewController.m */,
 				C27683CD1B0EBCAD00D1B408 /* Main.storyboard */,
 				C27683D01B0EBCAD00D1B408 /* Images.xcassets */,
 				C27683D21B0EBCAD00D1B408 /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				C27683CC1B0EBCAD00D1B408 /* ViewController.m in Sources */,
 				C27683C91B0EBCAD00D1B408 /* AppDelegate.m in Sources */,
+				C27683EB1B0EBF3C00D1B408 /* RootViewController.m in Sources */,
 				C27683C61B0EBCAD00D1B408 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +420,7 @@
 				C27683E51B0EBCAD00D1B408 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C27683E61B0EBCAD00D1B408 /* Build configuration list for PBXNativeTarget "ethjasTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				C27683E81B0EBCAD00D1B408 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
